@@ -1,5 +1,5 @@
 # Project Name  
-3D Model Hub
+## 3D Model Hub
 
 ---
 
@@ -65,8 +65,8 @@ List required dependencies or major libraries:
 1. Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/touhidcodes/Resume-Craft
-cd resume-craft
+git clone https://github.com/israt9528/3D-model-client.git
+cd 3D-model-client.git
 npm install
 ```
 
