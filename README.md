@@ -31,12 +31,32 @@ The 3D Model Hub equips students and developers with the skills needed to build 
 List required dependencies or major libraries:
 
 ```json
-{
-  "react": "^18.x",
-  "express": "^4.x",
-  "mongoose": "^7.x",
-  "tailwindcss": "^3.x"
-}
+"dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "daisyui": "^5.4.5",
+    "firebase": "^12.5.0",
+    "lucide": "^0.552.0",
+    "lucide-react": "^0.552.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-router": "^7.9.5",
+    "sweetalert2": "^11.26.3",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+
 ```
 
 ---
@@ -53,8 +73,8 @@ npm install
 2. Set up environment variables by creating a `.env` file in the root directory:
 
 ```env
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
+DATABASE_URL=https://cloud.mongodb.com/v2/6901c9d604bf5e2e01585034#/metrics/replicaSet/6901ca43c34f841b47f2374d/explorer/model-db
+
 ```
 
 3. Run the application:
@@ -81,33 +101,3 @@ your-project/
 
 ---
 
-## Contributions (Optional)
-If this is a team project, mention contributors.
-
-| Name            | Role                | Contributions                            |  
-|-----------------|---------------------|------------------------------------------|  
-| Member-1        | Role                | Contributions                            |  
-| Member-2        | Role                | Contributions                            |  
-
----
-
-## How to Contribute (Optional)
-
-  - Fork the Project
-  - Create a branch (`git checkout -b feature/AmazingFeature`)
-  - Commit changes (`git commit -m 'Add some AmazingFeature'`)
-  - Push the branch (`git push origin feature/AmazingFeature`)
-  - Open a Pull Request
-
----
-
-## License (Optional)
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
----
-
-## Contact
-
-**Live URL:** [Live Site](https://yourdomain.com/)
-**Email:** [username](your-email@example.com)
-**Portfolio:** [Portfolio](https://yourportfolio.com)
