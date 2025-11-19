@@ -1,16 +1,113 @@
-# React + Vite
+# Project Name  
+3D Model Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## About the Project 
+3D Model Hub is a full-stack web application designed to upload, manage, preview, and share 3D models in a clean and interactive platform. Built for creators, developers, and students, this project allows users to showcase their 3D assets with metadata, categories, and real-time previews.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Project Overview  
+The 3D Model Hub equips students and developers with the skills needed to build scalable, media-rich web applications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Key Features  
+1.Users can upload popular 3D formats (.glb, .gltf, .obj), along with thumbnails, categories, and descriptions. Files are stored securely on the server.         2.Each model can be previewed instantly on the browser using a Three.js viewer — users can rotate, zoom, and inspect the model in real time.                     3.Secure login/signup system ensures that users can only manage their own uploaded models. Models are linked to each user via email or user ID.                  4.Models can be organized into categories like characters, vehicles, environments, props, etc., with metadata for easy filtering and searching.                  5.Users get a dedicated dashboard to view, edit, update, or delete their models — making asset management simple and efficient.
+
+---
+
+## Tech Stack  
+**Frontend:** React.js · Tailwind CSS · TypeScript  
+**Backend:** Node.js · Express.js · MongoDB  
+**Tools:** Git · VS Code · Firebase · 
+
+---
+
+## Dependencies  
+List required dependencies or major libraries:
+
+```json
+{
+  "react": "^18.x",
+  "express": "^4.x",
+  "mongoose": "^7.x",
+  "tailwindcss": "^3.x"
+}
+```
+
+---
+
+## Installation️ & Setup
+1. Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/touhidcodes/Resume-Craft
+cd resume-craft
+npm install
+```
+
+2. Set up environment variables by creating a `.env` file in the root directory:
+
+```env
+DATABASE_URL=your_database_url
+JWT_SECRET=your_jwt_secret
+```
+
+3. Run the application:
+
+```bash
+npm run dev
+```
+
+---
+
+## Folder Structure
+
+```plaintext
+your-project/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── hooks/
+├── public/
+└── package.json
+```
+
+---
+
+## Contributions (Optional)
+If this is a team project, mention contributors.
+
+| Name            | Role                | Contributions                            |  
+|-----------------|---------------------|------------------------------------------|  
+| Member-1        | Role                | Contributions                            |  
+| Member-2        | Role                | Contributions                            |  
+
+---
+
+## How to Contribute (Optional)
+
+  - Fork the Project
+  - Create a branch (`git checkout -b feature/AmazingFeature`)
+  - Commit changes (`git commit -m 'Add some AmazingFeature'`)
+  - Push the branch (`git push origin feature/AmazingFeature`)
+  - Open a Pull Request
+
+---
+
+## License (Optional)
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+## Contact
+
+**Live URL:** [Live Site](https://yourdomain.com/)
+**Email:** [username](your-email@example.com)
+**Portfolio:** [Portfolio](https://yourportfolio.com)
